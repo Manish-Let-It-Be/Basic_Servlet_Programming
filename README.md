@@ -15,7 +15,7 @@ This project demonstrates core servlet concepts including:
 
 ```
 
-Basic\_Servlet\_Programming
+Basic_Servlet_Programming
 │   .gitattributes
 │   README.md
 │
