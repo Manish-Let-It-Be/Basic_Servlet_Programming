@@ -1,0 +1,18 @@
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         version="5.0"
+         xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee
+                             https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd">
+
+    <servlet>
+        <servlet-name>FormHandler</servlet-name>
+        <servlet-class>firstpackage.FormHandlerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>FormHandler</servlet-name>
+        <url-pattern>/formHandler</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
